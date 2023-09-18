@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "@components/Header";
-import Footer from "@components/Footer";
 import Treeselect from "treeselectjs";
 import React from "react";
 import "treeselectjs/dist/treeselectjs.css";
@@ -1037,7 +1036,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main style={{ width: "20rem" }}>
         <Header title="Treeselect Sample" />
         <div ref={ref}></div>
       </main>
